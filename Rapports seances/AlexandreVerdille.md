@@ -9,4 +9,5 @@ Séance du 20 Décembre 2018:
 
 Entre les deux séances, la répartition des tâches a été faite (voir Taches.xlsx), j'ai donc continué l'étude du micro et de son amplification tandis que Vivian réalisait les tests moteurs et quelques petits bricolages pour commencer à former la structure de notre futur robot.
 Lors de mon étude, j'ai récupérer le montage ayant le mieux fonctionné la semaine précédente. J'ai effectué des comparaisons notamment avec différentes valeurs de capacité.
-Il a ensuite fallu réflechir à améliorer la réception du son par le micro car il fonctionnait seuleument lorsque l'on soufflé dessus à une distance de 1 à 5cm...
+Il a ensuite fallu réflechir à améliorer la réception du son par le micro car il fonctionnait seuleument lorsque l'on soufflait dessus à une distance de 1 à 5cm... J'ai donc fabriqué un petit tube en papier du diamètre du micro et d'une longueur d'une vingtaine de centimètres. Grâce à ce dispositif, nous avons enfin réussi à obtenir les premières détections de la voix en restant tout de même à moins d'une dizaine de centimètres du tube!
+Je vais donc essayer de travailler la forme de ce tube pour essayer d'obtenir plus de raisonnance et ainsi amplifier physiquement le son avant qu'il arrive au micro pour être amplifié électroniquement.
