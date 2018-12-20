@@ -5,6 +5,8 @@ Dans le premier cas, l'amplification était très légère. Nous avons donc cher
 En deuxième partie de séance, nous avons récupéré deux moteurs avec deux roues d'un ancien projet. Nous les avons branchés et testés. A faible tension on observe déjà un léger écart dans la rotation des roues, il nous faudra peut-être rectifier ce point.
 En fin de séance, nous avons créer un Github  afin d'y déposer le contenu relatif à ce projet.
 
+
+
 Séance du 20 Décembre 2018:
 
 Entre les deux séances, la répartition des tâches a été faite (voir Taches.xlsx), j'ai donc continué l'étude du micro et de son amplification tandis que Vivian réalisait les tests moteurs et quelques petits bricolages pour commencer à former la structure de notre futur robot.
