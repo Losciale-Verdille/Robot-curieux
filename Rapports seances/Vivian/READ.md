@@ -11,6 +11,14 @@ La séance du jeudi 10 janvier aura comme objectif la finition du programme pour
 
 
 
+
+
+
+
+
+
+
+
 Jeudi 10 janvier:
 Durant cette séance , j'ai créé le programme permettant au robot de se déplacer automatiquement, cependant le micro n'étant toujours pas opérationnel, il est impossible d'incorporer la deplacement avec le micro.
 
