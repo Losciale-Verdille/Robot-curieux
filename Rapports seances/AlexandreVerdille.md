@@ -13,3 +13,12 @@ Entre les deux séances, la répartition des tâches a été faite (voir Taches.
 Lors de mon étude, j'ai récupérer le montage ayant le mieux fonctionné la semaine précédente. J'ai effectué des comparaisons notamment avec différentes valeurs de capacité.
 Il a ensuite fallu réflechir à améliorer la réception du son par le micro car il fonctionnait seuleument lorsque l'on soufflait dessus à une distance de 1 à 5cm... J'ai donc fabriqué un petit tube en papier du diamètre du micro et d'une longueur d'une vingtaine de centimètres. Grâce à ce dispositif, nous avons enfin réussi à obtenir les premières détections de la voix en restant tout de même à moins d'une dizaine de centimètres du tube!
 Je vais donc essayer de travailler la forme de ce tube pour essayer d'obtenir plus de raisonnance et ainsi amplifier physiquement le son avant qu'il arrive au micro pour être amplifié électroniquement.
+
+
+
+Séance du 10 Janvier 2019:
+
+Cette séance avait pour but d'améliorer la distance de détection du son afin qu'elle atteigne environ 1 mètre. Depuis la séance précédente, M. Masson (qui encadre les projets) nous a conseillé d'utiliser l'amplificateur opérationnel (AOP) TL072 pour notre amplification.
+J'ai tout d'abord vérifié que le micro était capable de détecter la distance souhaitée avec l'oscilloscope car la variation de tension était très faible et illisible sur le traceur série de l'arduino. J'ai ensuite réalisé un amplifcateur non inverseur en suivant le schéma page 26 de ce cours : http://users.polytech.unice.fr/~pmasson/Enseignement/AOP%20-%20Projection%20-%20MASSON.pdf . Malheureusement, je n'ai pas réussi à le régler de manière optimale.
+J'ai pu ensuite récupérer un montage avec l'AOP réalisé par M. Masson avec lequel nous avons pu réaliser quelques petits essais en fin de séances. Les premiers résultats sont que ce montage permet de très légèrement détecter la voix à une cinquaine de centimètres et ona réussi à détecter un clapement de main à environ 1 mètre. Un cône doit être installé autour du micro afin que ce clapement soit détecter lorsque qu'on est orienté vers celui-ci, ce qui n'est encore la cas actuellement.
+Durant la séance, j'ai également aidé mon binôme à diagnostiquer la source du problème de l'alimentation des moteurs avec le boitier de piles en m'appuyant sur le montage similaire d'un petit robot roulant réalisé en TD.
