@@ -37,4 +37,4 @@ Cependant pour le mode automatique, j'ai mis un capteur de distance afin qu'il �
 Il devrait continuer tout droit s'il n'y a pas d'obstacle et tourner si un obstacle apparait à 30 cm de lui.
 
 le fil permettant de relier la batterie a la carte s'est cassé, il faut le ressouder donc il n'y aura pas de vidéo.
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/49517024_2245816098990626_29802305620541440_n.jpg)
