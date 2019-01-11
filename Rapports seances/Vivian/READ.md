@@ -35,3 +35,5 @@ Deux mode possible: automatique et manuel.
 Cependant pour le mode automatique, j'ai mis un capteur de distance afin qu'il évite de se manger un mur. Cependant un problème survient c'est que lorsque je fais des mesures de distance, celui varie entre 0 et 100, ce qui implique que le robot se déplace bizarrement
 ( vidéo dispo vendredi 11)
 Il devrait continuer tout droit s'il n'y a pas d'obstacle et tourner si un obstacle apparait à 30 cm de lui.
+
+le fil permettant de relier la batterie a la carte s'est cassé, il faut le ressouder donc il n'y aura pas de vidéo.
