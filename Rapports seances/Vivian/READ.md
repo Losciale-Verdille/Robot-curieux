@@ -48,6 +48,8 @@ Etant donné que pour avancer la voiture, il nous fallait impérativement des mi
 (PS pour le montage, je ne voulais pas couper les pattes car nous étions pas sur que nous allions garder ce modèle, néanmoins à ne jamais faire comme nous !)
 puis nous avons fait des test.
 [![Clap bruit]()](https://youtu.be/oALtmsmLZ9g)
+
+
 On peut voir que le module avec le carton capte beaucoup mieux que celui en forme de parabole ( qui capte presque jamais) 
 Nous avons donc decidé de garder le modele avec le cube. Etant donné qu'il nous fallait 4 micros de ce type, nous sommes alors cherché le materiel afin de dupliquer cleui deja pré existant.
 Ensuite j'ai réparé le cable et testé mon mode automatique. Il ne marche pas du tout comme prévu, j 'ai remarqué que le capteur de distance affiche parfois 0cm soit qu'un obstacle est devant lui alors qu'il n' y a rien, ce qui est problematique car le programme est basé sur des mesures de distances regulière.
