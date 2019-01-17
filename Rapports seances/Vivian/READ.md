@@ -38,3 +38,10 @@ Il devrait continuer tout droit s'il n'y a pas d'obstacle et tourner si un obsta
 
 le fil permettant de relier la batterie a la carte s'est cassé, il faut le ressouder donc il n'y aura pas de vidéo.
 ![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/49517024_2245816098990626_29802305620541440_n.jpg)
+
+
+
+Jeudi 17 janvier:
+
+Dans cette sénace, nous nous somme focalisé sur le micro, Alexandre a réussit a faire un micro qui detecte les clapements de main. Nous avons alors essayé différentes forme de micro afin de voir lequel était le plus réceptif. Pour cela, j'ai dupliqué le module du micro que alexandre a fait puis nous avons fait des test.
+[![Clap bruit]()](https://youtu.be/oALtmsmLZ9g)
