@@ -43,7 +43,10 @@ le fil permettant de relier la batterie a la carte s'est cassé, il faut le ress
 
 Jeudi 17 janvier:
 
-Etant donné que pour avancer la voiture, il nous fallait impérativement des micros,dans cette sénace nous nous somme focalisé sur le micro. Alexandre a réussit a faire un micro qui detecte les clapements de main. Nous avons alors essayé différentes forme de micro afin de voir lequel était le plus réceptif. Pour cela, j'ai dupliqué le module du micro que alexandre a fait puis nous avons fait des test.
+Etant donné que pour avancer la voiture, il nous fallait impérativement des micros,dans cette sénace nous nous somme focalisé sur le micro. Alexandre a réussit a faire un micro qui detecte les clapements de main. Nous avons alors essayé différentes forme de micro afin de voir lequel était le plus réceptif. Pour cela, j'ai dupliqué le module du micro que alexandre a fait 
+![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/49517024_2245816098990626_29802305620541440_n.jpg)
+
+puis nous avons fait des test.
 [![Clap bruit]()](https://youtu.be/oALtmsmLZ9g)
 On peut voir que le module avec le carton capte beaucoup mieux que celui en forme de parabole ( qui capte presque jamais) 
 Nous avons donc decidé de garder le modele avec le cube. Etant donné qu'il nous fallait 4 micros de ce type, nous sommes alors cherché le materiel afin de dupliquer cleui deja pré existant.
