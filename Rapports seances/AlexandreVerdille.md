@@ -34,6 +34,6 @@ Les essais du prototype de cône ont mis en évidence une faible directivité, c
 
 J'ai continué à améiorer les réglages du prototype de cône en mesurant plus précisement la valeure moyenne, les variations de tension dûes au bruit ambiant et les variations lorsqu'on tape des mains à moyenne distance (~2-3m) ou qu'on parle à une faible distance (<1m) du micro.
 
-**Présentation orale du projet**
+**Présentation orale du projet** au deux tiers de la séance.
 
-Grâce à la précédente duplication, j'ai voulu 
+Grâce à la précédente duplication, j'ai voulu comparer les mesures de 2 micros orienté dans des directions opposées pour estimer la différence de mesure qu'on soit de face ou bien à l'opposé. J'ai bien constaté une petite différence mais il est à noter qu'un seul des deux micros été équipé du prototype.
