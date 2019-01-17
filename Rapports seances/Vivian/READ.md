@@ -43,5 +43,11 @@ le fil permettant de relier la batterie a la carte s'est cassé, il faut le ress
 
 Jeudi 17 janvier:
 
-Dans cette sénace, nous nous somme focalisé sur le micro, Alexandre a réussit a faire un micro qui detecte les clapements de main. Nous avons alors essayé différentes forme de micro afin de voir lequel était le plus réceptif. Pour cela, j'ai dupliqué le module du micro que alexandre a fait puis nous avons fait des test.
+Etant donné que pour avancer la voiture, il nous fallait impérativement des micros,dans cette sénace nous nous somme focalisé sur le micro. Alexandre a réussit a faire un micro qui detecte les clapements de main. Nous avons alors essayé différentes forme de micro afin de voir lequel était le plus réceptif. Pour cela, j'ai dupliqué le module du micro que alexandre a fait puis nous avons fait des test.
 [![Clap bruit]()](https://youtu.be/oALtmsmLZ9g)
+On peut voir que le module avec le carton capte beaucoup mieux que celui en forme de parabole ( qui capte presque jamais) 
+Nous avons donc decidé de garder le modele avec le cube. Etant donné qu'il nous fallait 4 micros de ce type, nous sommes alors cherché le materiel afin de dupliquer cleui deja pré existant.
+Ensuite j'ai réparé le cable et testé mon mode automatique. Il ne marche pas du tout comme prévu, j 'ai remarqué que le capteur de distance affiche parfois 0cm soit qu'un obstacle est devant lui alors qu'il n' y a rien, ce qui est problematique car le programme est basé sur des mesures de distances regulière.
+Pour cela, je compte revoir le programme afin de minimiser le nombre de mesures.
+Remarque, bien que le programme ne fonctionne pas comme je le voulais, il n'empeche que le robot ne se heurte a aucun obstacle, il va juste suivre des directions aléatoire.
+Ensuite, nous avons montré l'avancement du projet à des personnes venu visiter Polytech pendant 5 min.
