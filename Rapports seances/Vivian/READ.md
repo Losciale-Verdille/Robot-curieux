@@ -45,7 +45,7 @@ Jeudi 17 janvier:
 
 Etant donné que pour avancer la voiture, il nous fallait impérativement des micros,dans cette sénace nous nous somme focalisé sur le micro. Alexandre a réussit a faire un micro qui detecte les clapements de main. Nous avons alors essayé différentes forme de micro afin de voir lequel était le plus réceptif. Pour cela, j'ai dupliqué le module du micro que alexandre a fait 
 ![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/50023948_368657130591160_8592740781897285632_n.jpg)
-
+(PS pour le montage, je ne voulais pas couper les pattes car nous étions pas sur que nous allions garder ce modèle, néanmoins à ne jamais faire comme nous !)
 puis nous avons fait des test.
 [![Clap bruit]()](https://youtu.be/oALtmsmLZ9g)
 On peut voir que le module avec le carton capte beaucoup mieux que celui en forme de parabole ( qui capte presque jamais) 
