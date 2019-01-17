@@ -10,7 +10,7 @@ En fin de séance, nous avons créer un Github  afin d'y déposer le contenu rel
 
 Entre les deux séances, la répartition des tâches a été faite (voir Taches.xlsx), j'ai donc continué l'étude du micro et de son amplification tandis que Vivian réalisait les tests moteurs et quelques petits bricolages pour commencer à former la structure de notre futur robot.
 
-Lors de mon étude, j'ai récupérer le montage ayant le mieux fonctionné la semaine précédente. J'ai effectué des comparaisons notamment avec différentes valeurs de capacité.
+Lors de mon étude, j'ai récupéré le montage ayant le mieux fonctionné la semaine précédente. J'ai effectué des comparaisons notamment avec différentes valeurs de capacité.
 
 Il a ensuite fallu réflechir à améliorer la réception du son par le micro car il fonctionnait seuleument lorsque l'on soufflait dessus à une distance de 1 à 5cm... J'ai donc fabriqué un petit tube en papier du diamètre du micro et d'une longueur d'une vingtaine de centimètres. Grâce à ce dispositif, nous avons enfin réussi à obtenir les premières détections de la voix en restant tout de même à moins d'une dizaine de centimètres du tube!
 
@@ -20,10 +20,20 @@ Je vais donc essayer de travailler la forme de ce tube pour essayer d'obtenir pl
 
 Cette séance avait pour but d'améliorer la distance de détection du son afin qu'elle atteigne environ 1 mètre. Depuis la séance précédente, M. Masson (qui encadre les projets) nous a conseillé d'utiliser l'amplificateur opérationnel (AOP) TL072 pour notre amplification.
 
-J'ai tout d'abord vérifié que le micro était capable de détecter la distance souhaitée avec l'oscilloscope car la variation de tension était très faible et illisible sur le traceur série de l'arduino. J'ai ensuite réalisé un amplifcateur non inverseur en suivant le schéma [page 26 de ce cours](http://users.polytech.unice.fr/~pmasson/Enseignement/AOP%20-%20Projection%20-%20MASSON.pdf). Malheureusement, je n'ai pas réussi à le régler de manière optimale.
+J'ai tout d'abord vérifié que le micro était capable de détecter la distance souhaitée avec l'oscilloscope car la variation de tension était très faible et illisible sur le traceur série de l'arduino. J'ai ensuite réalisé un amplificateur non inverseur en suivant le schéma [page 26 de ce cours](http://users.polytech.unice.fr/~pmasson/Enseignement/AOP%20-%20Projection%20-%20MASSON.pdf). Malheureusement, je n'ai pas réussi à le régler de manière optimale.
 
 J'ai pu ensuite récupérer un montage avec l'AOP réalisé par M. Masson avec lequel nous avons pu réaliser quelques petits essais en fin de séances. Les premiers résultats sont que ce montage permet de très légèrement détecter la voix à une cinquaine de centimètres et on a réussi à détecter un clapement de main à environ 1 mètre. Un cône doit être installé autour du micro afin que ce clapement soit détecté lorsque qu'on est orienté vers celui-ci, ce qui n'est pas encore le cas actuellement.
 
 Durant la séance, j'ai également aidé mon binôme à diagnostiquer la source du problème de l'alimentation des moteurs avec le boitier de piles en m'appuyant sur le montage similaire d'un petit robot roulant réalisé en TD.
 
 **Entre les séances :** Réalisation d'un prototype de cône augmentant la portée du micro (environ 2-3 mètres) lorsque on tape dans les mains.
+
+### Séance du 17 Janvier 2019:
+
+Les essais du prototype de cône ont mis en évidence une faible directivité, c'est-à-dire que le micro à un champ d'écoute trop grand. Or, nous souhaitons un micro très directif pour localiser la source d'un son. Nous avons reçu des ressources au sujet de micros paraboliques utilisant la réflexion du son sur une parabole vers le micro. Mon binôme a dupliqué le circuit d'amplification avec un autre micro pour comparer la parabole avec le cône. Cette solution n'a pas fonctionné car nous n'avons pas réussi à trouver le point de focale de la demi-sphère nous servant de parabole.
+
+J'ai continué à améiorer les réglages du prototype de cône en mesurant plus précisement la valeure moyenne, les variations de tension dûes au bruit ambiant et les variations lorsqu'on tape des mains à moyenne distance (~2-3m) ou qu'on parle à une faible distance (<1m) du micro.
+
+**Présentation orale du projet**
+
+Grâce à la précédente duplication, j'ai voulu 
