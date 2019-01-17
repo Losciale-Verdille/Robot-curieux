@@ -36,4 +36,4 @@ J'ai continué à améiorer les réglages du prototype de cône en mesurant plus
 
 **Présentation orale du projet** au deux tiers de la séance.
 
-Grâce à la précédente duplication, j'ai voulu comparer les mesures de 2 micros orienté dans des directions opposées pour estimer la différence de mesure qu'on soit de face ou bien à l'opposé. J'ai bien constaté une petite différence mais il est à noter qu'un seul des deux micros été équipé du prototype.
+Grâce à la précédente duplication, j'ai voulu comparer les mesures de 2 micros orientés dans des directions opposées pour estimer la différence de mesure qu'on soit de face ou bien à l'opposé. J'ai bien constaté une petite différence mais il est à noter qu'un seul des deux micros été équipé du prototype.
