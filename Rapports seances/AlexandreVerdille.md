@@ -1,4 +1,4 @@
-### Séance du 13 Décembre 2018:
+### Séance du 13 Décembre 2018 :
 Nous avons commencé par l'étude du fonctionnement du micro et de l'amplification du signal obtenu car c'est un élément essentiel dans la réalisation de notre projet. 3 circuits ont été réalisés dans ce but: un filtre passe-haut, amplification avec l'AOP et amplification avec un transistor NPN.
 
 Dans le premier cas, l'amplification était très légère. Nous avons donc chercher des exemples de circuits utilisant notamment des AOP et des transistors espérant de meilleurs résultats. Dans le cas de l'AOP, l'amplification n'était pas satisfaisante, les branchements complexes et gourmand en composant alors qu'il nous faudra amplifier plusieurs micros et donc reproduire ce circuit 4 à 5 fois. Dans le cas du transistor NPN, le résultat était encore une fois pas complètement satisfaisant.
@@ -6,7 +6,7 @@ Dans le premier cas, l'amplification était très légère. Nous avons donc cher
 En deuxième partie de séance, nous avons récupéré deux moteurs avec deux roues d'un ancien projet. Nous les avons branchés et testés. A faible tension on observe déjà un léger écart dans la rotation des roues, il nous faudra peut-être rectifier ce point.
 En fin de séance, nous avons créer un Github  afin d'y déposer le contenu relatif à ce projet.
 
-### Séance du 20 Décembre 2018:
+### Séance du 20 Décembre 2018 :
 
 Entre les deux séances, la répartition des tâches a été faite (voir Taches.xlsx), j'ai donc continué l'étude du micro et de son amplification tandis que Vivian réalisait les tests moteurs et quelques petits bricolages pour commencer à former la structure de notre futur robot.
 
@@ -16,7 +16,7 @@ Il a ensuite fallu réflechir à améliorer la réception du son par le micro ca
 
 Je vais donc essayer de travailler la forme de ce tube pour essayer d'obtenir plus de raisonnance et ainsi amplifier physiquement le son avant qu'il arrive au micro pour être amplifié électroniquement.
 
-### Séance du 10 Janvier 2019:
+### Séance du 10 Janvier 2019 :
 
 Cette séance avait pour but d'améliorer la distance de détection du son afin qu'elle atteigne environ 1 mètre. Depuis la séance précédente, M. Masson (qui encadre les projets) nous a conseillé d'utiliser l'amplificateur opérationnel (AOP) TL072 pour notre amplification.
 
@@ -28,7 +28,7 @@ Durant la séance, j'ai également aidé mon binôme à diagnostiquer la source 
 
 **Entre les séances :** Réalisation d'un prototype de cône augmentant la portée du micro (environ 2-3 mètres) lorsque on tape dans les mains.
 
-### Séance du 17 Janvier 2019:
+### Séance du 17 Janvier 2019 :
 
 Les essais du prototype de cône ont mis en évidence une faible directivité, c'est-à-dire que le micro à un champ d'écoute trop grand. Or, nous souhaitons un micro très directif pour localiser la source d'un son. Nous avons reçu des ressources au sujet de micros paraboliques utilisant la réflexion du son sur une parabole vers le micro. Mon binôme a dupliqué le circuit d'amplification avec un autre micro pour comparer la parabole avec le cône. Cette solution n'a pas fonctionné car nous n'avons pas réussi à trouver le point de focale de la demi-sphère nous servant de parabole.
 
@@ -40,5 +40,8 @@ Grâce à la précédente duplication, j'ai voulu comparer les mesures de 2 micr
 
 **Entre les séances :** Le prototype de cône (qui est en fait un cylindre sans ses bases) ayant donné satisfaction, j'en ai équipé les 4 micros dont nous disposons. ![cône ampli](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Images/20190203_151233%5B1%5D.jpg)
 Il a également fallu dupliquer le circuit d'amplification pour chaque micro : ![Amplification AOP](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Images/20190120_184130%5B1%5D.jpg)
-(emplacement schema)
+(emplacement schema elec)
+
 Le micro se branche sur la ligne 50 côté gauche de la plaque (entre la résistance et le condensateur) et le signal amplifié est mesuré ligne 55 côté droit de la plaque.
+
+### Séance du 4 Février 2019 :
