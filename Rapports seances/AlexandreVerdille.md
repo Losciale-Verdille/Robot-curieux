@@ -37,3 +37,8 @@ J'ai continué à améiorer les réglages du prototype de cône en mesurant plus
 **Présentation orale du projet** au deux tiers de la séance.
 
 Grâce à la précédente duplication, j'ai voulu comparer les mesures de 2 micros orientés dans des directions opposées pour estimer la différence de mesure qu'on soit de face ou bien à l'opposé. J'ai bien constaté une petite différence mais il est à noter qu'un seul des deux micros été équipé du prototype.
+
+**Entre les séances :** Le prototype de cône (qui est en fait un cylindre sans ses bases) ayant donné satisfaction, j'en ai équipé les 4 micros dont nous disposons. ![cône ampli](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Images/20190203_151233%5B1%5D.jpg)
+Il a également fallu dupliquer le circuit d'amplification pour chaque micro : ![Amplification AOP](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Images/20190120_184130%5B1%5D.jpg)
+(emplacement schema)
+Le micro se branche sur la ligne 50 côté gauche de la plaque (entre la résistance et le condensateur) et le signal amplifié est mesuré ligne 55 côté droit de la plaque.
