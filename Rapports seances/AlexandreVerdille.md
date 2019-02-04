@@ -53,3 +53,61 @@ Remplacement des condensateurs des circuits d'amplification. Prise de mesure sur
 J'ai ensuite dû mesurer manuellement les valeurs de fonctionnement de chaque micro et circuit d'amplification associé (la mesure automatique ne fonctionnant pas correctement, j'essaierais de toujours associer les mêmes micros aux mêmes circuits d'amplification pour ne pas avoir à refaire les mesures à chaque fois).
 
 Cela m'a permis de réaliser le code comparant les sources du son en disposant les micros vers l'avant, vers l'arrière, vers la droite et vers la gauche. Les tests ont montrés que le code fonctionnait mais il y a toujours un léger problème au niveau de la directivité des micros. En effet, à moyenne et longue distance (>2m), les micros opposés ont tendance à capter aussi bien le son que le micro. correctement orienté.
+```javascript
+int var = 50;
+int micro;
+
+// Micro & AOP 1
+int gap1;
+int m1 = 1;
+int amp1 = 503;
+
+// Micro & AOP 2
+int gap2;
+int m2 = 2;
+int amp2 = 505;
+
+//Micro & AOP 3
+int gap3;
+int m3 = 3;
+int amp3 = 510;
+
+//Micro & AOP 4
+int gap4;
+int m4 = 4;
+int amp4 = 508;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+int Compare(int in1, int in2, int in3, int in4) {
+  int mic = 1;
+  int vmax = in1;
+  if (in2>vmax) {
+    mic = 2;
+    vmax = in2;
+  }
+  if (in3>vmax) {
+    mic = 3;
+    vmax = in3;
+  }
+  if (in4>vmax) {
+    mic = 4;
+    vmax = in4;
+  }
+  return mic;
+}
+
+void loop() {
+  gap1 = abs(amp1-analogRead(m1));
+  gap2 = abs(amp2-analogRead(m2));
+  gap3 = abs(amp3-analogRead(m3));
+  gap4 = abs(amp4-analogRead(m4));
+  if ((gap1 >= var) || (gap2 >= var) || (gap3 >= var) || (gap4 >= var)){
+    micro = Compare(gap1,gap2,gap3,gap4);
+    Serial.println(micro);
+  }
+  delay(50);
+}
+```
