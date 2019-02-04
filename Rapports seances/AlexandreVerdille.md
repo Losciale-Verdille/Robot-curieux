@@ -46,4 +46,5 @@ Le micro se branche sur la ligne 50 côté gauche de la plaque (entre la résist
 
 ### Séance du 4 Février 2019 :
 
-Remplacement des condensateurs des circuits d'amplification.
+Remplacement des condensateurs des circuits d'amplification. Prise de mesure sur le robot pour y intégrer les micros.
+J'ai ensuite dû mesurer manuellement les valeurs de fonctionnement de chaque micro et circuit d'amplification associé (la mesure automatique ne fonctionnant pas correctement, j'essaierais de toujours associer les mêmes micros aux mêmes circuits d'amplification pour ne pas avoir à refaire les mesures à chaque fois).
