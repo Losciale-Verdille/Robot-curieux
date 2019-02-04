@@ -45,3 +45,5 @@ Il a également fallu dupliquer le circuit d'amplification pour chaque micro : !
 Le micro se branche sur la ligne 50 côté gauche de la plaque (entre la résistance et le condensateur) et le signal amplifié est mesuré ligne 55 côté droit de la plaque.
 
 ### Séance du 4 Février 2019 :
+
+Remplacement des condensateurs des circuits d'amplification.
