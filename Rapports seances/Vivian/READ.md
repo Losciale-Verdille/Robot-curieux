@@ -56,3 +56,10 @@ Ensuite j'ai réparé le cable et testé mon mode automatique. Il ne marche pas 
 Pour cela, je compte revoir le programme afin de minimiser le nombre de mesures.
 Remarque, bien que le programme ne fonctionne pas comme je le voulais, il n'empeche que le robot ne se heurte a aucun obstacle, il va juste suivre des directions aléatoire.
 Ensuite, nous avons montré l'avancement du projet à des personnes venu visiter Polytech pendant 5 min.
+
+
+Lundi 4 fevrier 2019:
+
+j'ai repris le système de mode automatique concernant le fait qu'il puisse eviter de se prendre des murs. Malheureusement, comme annoncé dans le rapport de la seance dernière, le capteur affiche certaines fois un 0. J'ai donc enlevé le 0 afin d 'avoir des bonnes mesures de distances. Cependant, j'ai constaté que le capteur de distance ne fonctionne absolument pas lorsque je branche avec le boitier de pile, et dont j'ignore completement pourquoi cela ne veut pas marcher. J'ai donc testé independamment le module et aucun problème de ce coté.
+Après avoir mis un delay entre chaque mesure, le capteur fonctionne. Par contre, chose completement bizarre,le capteur n'arrive pas a detecter quand on est en dessous de 10 cm lorsque je met la voiture sur le sol. Après plusieurs tentatives ( changement de matériel, changement du code) j'en ai eu marre et nous avons décidé d 'abandonner le système de navigation automatique; A la place, nous allons incorporer les micros sur la voitures et le robot se deplacera vers la source de bruit et se prendra un mur si il y en a un.
+peut etre mettre sur le mode manuel, un bouton permettant d 'avoir la distance disponible devant soi. ( peut etre utile si on ne voit pas la voiture et que l'on veut la diriger aveuglement)
