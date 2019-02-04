@@ -48,3 +48,4 @@ Le micro se branche sur la ligne 50 côté gauche de la plaque (entre la résist
 
 Remplacement des condensateurs des circuits d'amplification. Prise de mesure sur le robot pour y intégrer les micros.
 J'ai ensuite dû mesurer manuellement les valeurs de fonctionnement de chaque micro et circuit d'amplification associé (la mesure automatique ne fonctionnant pas correctement, j'essaierais de toujours associer les mêmes micros aux mêmes circuits d'amplification pour ne pas avoir à refaire les mesures à chaque fois).
+Cela m'a permis de réaliser le code comparant les sources du son en disposant les micros vers l'avant, vers l'arrière, vers la droite et vers la gauche. Les tests ont montrés que le code fonctionnait mais il y a toujours un léger problème au niveau de la directivité des micros. En effet, à moyenne et longue distance (>2m), les micros opposés ont tendance à capter aussi bien le son que le micro. correctement orienté.
