@@ -26,7 +26,8 @@ J'ai pu ensuite récupérer un montage avec l'AOP réalisé par M. Masson avec l
 
 Durant la séance, j'ai également aidé mon binôme à diagnostiquer la source du problème de l'alimentation des moteurs avec le boitier de piles en m'appuyant sur le montage similaire d'un petit robot roulant réalisé en TD.
 
-**Entre les séances :** Réalisation d'un prototype de cône augmentant la portée du micro (environ 2-3 mètres) lorsque on tape dans les mains.
+#### Entre les séances : 
+Réalisation d'un prototype de cône augmentant la portée du micro (environ 2-3 mètres) lorsque on tape dans les mains.
 
 ### Séance du 17 Janvier 2019 :
 
@@ -38,7 +39,8 @@ J'ai continué à améiorer les réglages du prototype de cône en mesurant plus
 
 Grâce à la précédente duplication, j'ai voulu comparer les mesures de 2 micros orientés dans des directions opposées pour estimer la différence de mesure qu'on soit de face ou bien à l'opposé. J'ai bien constaté une petite différence mais il est à noter qu'un seul des deux micros été équipé du prototype.
 
-**Entre les séances :** Le prototype de cône (qui est en fait un cylindre sans ses bases) ayant donné satisfaction, j'en ai équipé les 4 micros dont nous disposons. ![cône ampli](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Images/20190203_151233%5B1%5D.jpg)
+#### Entre les séances :
+Le prototype de cône (qui est en fait un cylindre sans ses bases) ayant donné satisfaction, j'en ai équipé les 4 micros dont nous disposons. ![cône ampli](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Images/20190203_151233%5B1%5D.jpg)
 Il a également fallu dupliquer le circuit d'amplification pour chaque micro : ![Amplification AOP](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Images/20190120_184130%5B1%5D.jpg)
 (emplacement schema elec)
 
