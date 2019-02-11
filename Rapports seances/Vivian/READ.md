@@ -65,3 +65,7 @@ Après avoir mis un delay entre chaque mesure, le capteur fonctionne. Par contre
 [![Robot probleme]()](https://www.youtube.com/watch?v=Vb8J6qS2bx4)
 Après plusieurs tentatives ( changement de matériel, changement du code) j'en ai eu marre et nous avons décidé d 'abandonner le système de navigation automatique; A la place, nous allons incorporer les micros sur la voitures et le robot se deplacera vers la source de bruit et se prendra un mur si il y en a un.
 peut etre mettre sur le mode manuel, un bouton permettant d 'avoir la distance disponible devant soi. ( peut etre utile si on ne voit pas la voiture et que l'on veut la diriger aveuglement)
+
+
+Lundi 11 fevrier 2019:
+Durant cette séance , nous avons commencé à finaliser le robot, nous avons fixé les élements sur le robot et j'ai recuperé le module avec les 4 micros permettant de voir la direction du son. Il y a cependant quelque petit problème concernant la mesure du son donc il faudrait voir si on peut séparer chaque micro par des isolants sonores afin d éeviter les perturbations entre micros. J'ai eu un petit problème concernant le montage final du robot. J'ai détaché l'un des moteurs et je l'ai recollé. Cependant, c'était ecrit prise rapide et ça a pris 40 min pour coller donc ce n'est pas rapide. Conclusion, je n 'ai pas pu faire des tests avec la voiture car sinon le moteur se détachait. J'ai donc récuperé tout le matériel afin de faire les ajustement pendant les vacances.
