@@ -111,3 +111,6 @@ void loop() {
   delay(50);
 }
 ```
+
+### Séance du 11 Février 2019 :
+Essai boîte (vidéo) + v2 code + mini plaque
