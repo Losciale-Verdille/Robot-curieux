@@ -113,4 +113,5 @@ void loop() {
 ```
 
 ### Séance du 11 Février 2019 :
-Essai boîte (vidéo) + v2 code + mini plaque
+Essais de détection du son avec la boîte contenant les 4 micros orientés dans 4 directions (aperçu: **lien**). La détection du son sur les micros positionnés sur la longueur de la boîte est bonne et est à améliorer sur ceux positionnés sur la larqeur de la boîte. Suite à ces essais, une version améliorée du code de détection a été faite durant la séance.
+Réflexion sur le positionnement des différents élements sur le robot avec Vivian (micros, boitier de piles, carte arduino, circuit amplificateur/plaque). Dans une économie de place et de poids, les circuits d'amplification ont été transférés vers une plus petite plaque.
