@@ -118,4 +118,12 @@ Essais de détection du son avec la boîte contenant les 4 micros orientés dans
 Réflexions sur le positionnement des différents élements sur le robot avec Vivian (micros, boitier de piles, carte arduino, circuit amplificateur/plaque). Dans une économie de place et de poids, les circuits d'amplification ont été transférés vers une plus petite plaque.
 
 ### Séance du 25 Février 2019 :
-Réparation module son + montage complet + réparation module BT et moteur et alimentation/pile
+Nous avons tout d'abord dû vérifier que tous les modules qui avaient été assemblés fonctionnaient correctement ensemble (Micros + Bluetooth + Moteurs). Evidemment, nous avons rencontré plusieurs problèmes :
+
+**Problème n°1 :** Le signal du son mesuré par les micros comportait des pics parasites qui nuisaient à la bonne détection du son. Nous pensons que ces perturbations étaient dûes au branchement du module Bluetooth sur le 5V et la masse de la plaque des circuits d'amplification des micros. Le problème a été résolu en ajoutant un condensateur entre le 5V et la masse de la plaque.
+
+**Problème n°2 :** La communication avec le module Bluetooth ne fonctionnait plus, la source de la panne n'a pas été totalement identifié.
+
+**Problème n°3 :** L'alimentation par le boîtier de piles ne fonctionnait plus. Après avoir vérifié le fonctionnement des moteurs (branchements OK, avec l'alimentation 5V de la carte) et vérifier l'ensemble des piles du boîtier, le problème a finalement été localisé sur le fil de la masse qui était défectueux. Nous avons donc eu un nouveau boîtier de piles.
+
+Nous avons conclu la séance sur l'essai de l'alimentation du robot complet.
