@@ -116,3 +116,6 @@ void loop() {
 Essais de détection du son avec la boîte contenant les 4 micros orientés dans 4 directions ([aperçu](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Images/20190210_165025.mp4)). La détection du son sur les micros positionnés sur la longueur de la boîte est bonne et est à améliorer sur ceux positionnés sur la larqeur de la boîte. Suite à ces essais, une version améliorée du code de détection a été faite durant la séance.
 
 Réflexions sur le positionnement des différents élements sur le robot avec Vivian (micros, boitier de piles, carte arduino, circuit amplificateur/plaque). Dans une économie de place et de poids, les circuits d'amplification ont été transférés vers une plus petite plaque.
+
+### Séance du 25 Février 2019 :
+Réparation module son + montage complet + réparation module BT et moteur
