@@ -118,4 +118,4 @@ Essais de détection du son avec la boîte contenant les 4 micros orientés dans
 Réflexions sur le positionnement des différents élements sur le robot avec Vivian (micros, boitier de piles, carte arduino, circuit amplificateur/plaque). Dans une économie de place et de poids, les circuits d'amplification ont été transférés vers une plus petite plaque.
 
 ### Séance du 25 Février 2019 :
-Réparation module son + montage complet + réparation module BT et moteur
+Réparation module son + montage complet + réparation module BT et moteur et alimentation/pile
