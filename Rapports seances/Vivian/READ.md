@@ -79,4 +79,4 @@ En voulant tester le robot avec les piles, nous avions eu un problème qui a du 
 Nous avons aussi récuperé des isolants sonores afin de voir si on peut optimiser la détection du son.
 ![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/53316655_2192162897766018_6643333814338715648_n.jpg)
 Nous allons aussi refaire la boite contenant les micros afin de la rendre plus solide et d'y poser le boitier de pile par la suite
-![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/53316655_2192162897766018_6643333814338715648_n.jpg)
+![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/52876795_699304053799449_2594654576044933120_n.jpg)
