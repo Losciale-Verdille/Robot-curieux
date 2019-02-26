@@ -77,4 +77,6 @@ En effet, durant cette séance, nous avons essayé de régler le problème qu'on
 Pour palier ce problème, il suffisait juste de mettre un condensateur au plus proche du problème.Malgré que nous avions un condensateur déja entre le 5v et la masse présent sur la carte, il a fallu en rajouter un au niveau de la sortie du micro. Grace à cela, nous n'avions plus eu de problème avec ces pics.
 En voulant tester le robot avec les piles, nous avions eu un problème qui a du nous prendre 20min. Au cune tension n'était transmise du boitier de pile au robot. j'ai d'abord cru que c'était un problème de branchement sur le robot mais en voyant avec le professeur, nous avions trouvé la source du problème qui était juste le boitier de pile qui ne transmettait pas la tension.
 Nous avons aussi récuperé des isolants sonores afin de voir si on peut optimiser la détection du son.
+![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/53316655_2192162897766018_6643333814338715648_n.jpg)
 Nous allons aussi refaire la boite contenant les micros afin de la rendre plus solide et d'y poser le boitier de pile par la suite
+![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/53316655_2192162897766018_6643333814338715648_n.jpg)
