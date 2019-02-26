@@ -69,3 +69,9 @@ peut etre mettre sur le mode manuel, un bouton permettant d 'avoir la distance d
 
 Lundi 11 fevrier 2019:
 Durant cette séance , nous avons commencé à finaliser le robot, nous avons fixé les élements sur le robot et j'ai recuperé le module avec les 4 micros permettant de voir la direction du son. Il y a cependant quelque petit problème concernant la mesure du son donc il faudrait voir si on peut séparer chaque micro par des isolants sonores afin d éeviter les perturbations entre micros. J'ai eu un petit problème concernant le montage final du robot. J'ai détaché l'un des moteurs et je l'ai recollé. Cependant, c'était ecrit prise rapide et ça a pris 40 min pour coller donc ce n'est pas rapide. Conclusion, je n 'ai pas pu faire des tests avec la voiture car sinon le moteur se détachait. J'ai donc récuperé tout le matériel afin de faire les ajustement pendant les vacances.
+
+
+Lundi 25 fevrier 2019:
+Nous avons enfin la détection des micros qui marche plus ou moins correctement.Par détection , je veux dire de quel coté provient le son.
+En effet, durant cette séance, nous avons essayé de régler le problème qu'on avait au niveau des mesures de son. Nous avions des valeurs de captures qui étaient faussé. C'est à dire que de temps en temps, nous avions un pic qui montait ou descendait alors qu'il ne devait pas.
+Pour palier ce problème, il suffisait juste de mettre un condensateur au plus proche du problème.Malgré que nous avions un condensateur déja entre le 5v et la masse présent sur la carte, il a fallu en rajouter un au niveau de la sortie du micro. Grace à cela, nous n'avions plus eu de problème avec ces pics.
