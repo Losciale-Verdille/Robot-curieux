@@ -129,9 +129,9 @@ Nous avons tout d'abord dû vérifier que tous les modules qui avaient été ass
 Nous avons conclu la séance sur l'essai de l'alimentation du robot complet.
 
 ### Séance du 4 Mars 2019 :
-passage 14h45
+
 La détection du son fonctionnant à la séance précédente, nous avons d'abord dû vérifier qu'elle fonctionnait toujours à présent que le robot et le programme étaient complet (le code de détection a été ajouté par Vivian dans le code des moteurs entre les séances). Après une longue et minutieuse vérifiation des branchements (environ 35 min), nous avons pu complétement tester notre robot pour la 1ère fois. Nous avons réalisé les observations suivantes : (1) le robot se met en marche seuleument à partir du moment où le micro avant détecte un son (nous souhaitions une mise en marche dès qu'un des quatre micros était sollicité); (2) en marche avant le robot ne suit pas tout le temps une ligne droite; (3) les roues manquent parfois d'adhérence lorsque le robot doit tourner à droite ou à gauche.
 
-(1) : Résolu par correction du programme.
-(2) : Nous pensions tout d'abord à un problème de répartition des puissances entre roues droite et gauche. En effet, la roue gauche ayant plus de puissance que celle de droite, il a fallu la brider au niveau du programme (ne pas la mettre à 100% de puissance). Au fil des réajustements à taton, nous nous sommes aperçu que le problème venait de la roue libre avant (3 ème appui du robot en plus des roues motorisés). Lors de changement de direction, probablement dû à une vitesse insuffisante ou un manque d'adhérence, la roue ne s'oriente pas tout à fait dans la direction du mouvement du robot.
-(3) : Plutôt que d'utiliser une roue motrice pour tourner, nous devrions utiliser les deux roues dans des sens opposés.
+* (1) : Résolu par correction du programme.
+* (2) : Nous pensions tout d'abord à un problème de répartition des puissances entre roues droite et gauche. En effet, la roue gauche ayant plus de puissance que celle de droite, il a fallu la brider au niveau du programme (ne pas la mettre à 100% de puissance). Au fil des réajustements à taton, nous nous sommes aperçu que le problème venait de la roue libre avant (3 ème appui du robot en plus des roues motorisés). Lors de changement de direction, probablement dû à une vitesse insuffisante ou un manque d'adhérence, la roue ne s'oriente pas tout à fait dans la direction du mouvement du robot.
+* (3) : Plutôt que d'utiliser une roue motrice pour tourner, nous devrions utiliser les deux roues dans des sens opposés.
