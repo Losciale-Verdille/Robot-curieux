@@ -127,3 +127,6 @@ Nous avons tout d'abord dû vérifier que tous les modules qui avaient été ass
 **Problème n°3 :** L'alimentation par le boîtier de piles ne fonctionnait plus. Après avoir vérifié le fonctionnement des moteurs (branchements OK, avec l'alimentation 5V de la carte) et vérifier l'ensemble des piles du boîtier, le problème a finalement été localisé sur le fil de la masse qui était défectueux. Nous avons donc eu un nouveau boîtier de piles.
 
 Nous avons conclu la séance sur l'essai de l'alimentation du robot complet.
+
+### Séance du 4 Mars 2019 :
+passage 14h45
