@@ -80,3 +80,12 @@ Nous avons aussi récuperé des isolants sonores afin de voir si on peut optimis
 ![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/53316655_2192162897766018_6643333814338715648_n.jpg)
 Nous allons aussi refaire la boite contenant les micros afin de la rendre plus solide et d'y poser le boitier de pile par la suite
 ![alt text](https://github.com/Losciale-Verdille/Robot-curieux/blob/master/Rapports%20seances/Vivian/52876795_699304053799449_2594654576044933120_n.jpg)
+
+
+Lundi 4 mars 2019:
+Durant cette dernière séance, nous avons vérifié que tout les modules et que le robot en général marchaient bien. Durant le week end, j'ai rajouté la fonction permettant au robot de se diriger vers la source de son la plus forte. Cependant, il persiste quelque problème.
+Le premier étant que la portée de détection pour que le robot capte un son varie. Dans nos expérimentations, le robots ne se diriger que si on était à une distance relativement proche des micros. Ce qui est assez bizarre car durant nos precédents tests sur les micros, nous détections à une plus grande distance.
+Nous avons donc vérifié tous les micros durant 45 min environ.
+De plus, l'un des moteurs est extremement lent comparé à l'autre ce qui induit que pour que le robot avance à peu près droit, on à du baisser la vitesse de l'autre moteur.
+Un problème ( bien que ce n'est pas vraiment un) est du au fait de l'adherence des roues. Parfois, les roues tournent dans le vide. Pour palier cela, il faudrait un poids au niveau arrière du robot afin que les roues soient beaucoup plus en contact avec le sol.
+Puis sur la fin de séance, 30 minute avant la fin, nous avons commencé à faire le rapport pour la soutenance de stage.
