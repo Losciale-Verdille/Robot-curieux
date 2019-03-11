@@ -135,3 +135,7 @@ La détection du son fonctionnant à la séance précédente, nous avons d'abord
 * (1) : Résolu par correction du programme.
 * (2) : Nous pensions tout d'abord à un problème de répartition des puissances entre roues droite et gauche. En effet, la roue gauche ayant plus de puissance que celle de droite, il a fallu la brider au niveau du programme (ne pas la mettre à 100% de puissance). Au fil des réajustements à taton, nous nous sommes aperçu que le problème venait de la roue libre avant (3 ème appui du robot en plus des roues motorisés). Lors de changement de direction, probablement dû à une vitesse insuffisante ou un manque d'adhérence, la roue ne s'oriente pas tout à fait dans la direction du mouvement du robot.
 * (3) : Plutôt que d'utiliser une roue motrice pour tourner, nous devrions utiliser les deux roues dans des sens opposés.
+
+### Séance du 11 Mars 2019 :
+Présentation du projet
+Démonstration du mode automatique : https://youtu.be/hMzgcauvrmQ
