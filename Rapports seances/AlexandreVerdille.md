@@ -138,4 +138,5 @@ La détection du son fonctionnant à la séance précédente, nous avons d'abord
 
 ### Séance du 11 Mars 2019 :
 Présentation du projet
+
 Démonstration du mode automatique : https://youtu.be/hMzgcauvrmQ
