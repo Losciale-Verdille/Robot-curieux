@@ -1,3 +1,6 @@
+// Vérification module son
+// Renvoie sur le moniteur série le numéro du micro (voir schéma)
+
 int var = 100;
 int micro,dir;
 int nb_Mesures, n_1, n_2, n_3, n_4;
@@ -5,22 +8,22 @@ int nb_Mesures, n_1, n_2, n_3, n_4;
 // Micro & AOP 1
 int gap1;
 int m1 = 1;
-int amp1 = 503;
+int amp1 = 509;
 
 // Micro & AOP 2
 int gap2;
 int m2 = 2;
-int amp2 = 505;
+int amp2 = 509;
 
 //Micro & AOP 3
 int gap3;
 int m3 = 3;
-int amp3 = 510;
+int amp3 = 505;
 
 //Micro & AOP 4
 int gap4;
 int m4 = 4;
-int amp4 = 508;
+int amp4 = 505;
 
 void setup() {
   Serial.begin(9600);
@@ -52,7 +55,7 @@ void loop() {
   n_3 = 0;
   n_4 = 0;
   Serial.println("OK");
-  while (nb_Mesures<100) {
+  while (nb_Mesures<50) {
     gap1 = abs(amp1-analogRead(m1));
     gap2 = abs(amp2-analogRead(m2));
     gap3 = abs(amp3-analogRead(m3));
@@ -76,5 +79,4 @@ void loop() {
   }
   dir = Compare(gap1,gap2,gap3,gap4);
   Serial.println(dir);
-  delay(50);
 }
